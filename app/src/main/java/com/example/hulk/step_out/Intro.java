@@ -30,7 +30,7 @@ public class Intro extends AppIntro {
 
     @Override
     public void onSkipPressed() {
-        Intent skip = new Intent(this,Nowshowing.class);
+        Intent skip = new Intent(this,Login.class);
         startActivity(skip);
 
     }
